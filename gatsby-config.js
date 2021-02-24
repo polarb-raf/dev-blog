@@ -12,7 +12,7 @@ module.exports = {
     siteUrl: `https://polarb-raf.dev`,
     siteDescription: `개발자 Rafael의 개발 블로그`,
     siteLanguage: `ko`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/banner.png`,
     author: `Woongki Rafael Kim`,
   },
   plugins: [
