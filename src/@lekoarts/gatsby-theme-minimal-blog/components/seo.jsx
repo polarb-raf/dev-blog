@@ -19,7 +19,6 @@ const SEO = ({
     siteDescription: defaultDescription,
     siteLanguage,
     siteImage: defaultImage,
-    author,
   } = site
 
   const seo = {
@@ -33,6 +32,7 @@ const SEO = ({
       <html lang={siteLanguage} />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
+      <meta name="author" content="Rafael" />
       <meta property="og:title" content={seo.title} />
       <meta property="og:url" content={seo.url} />
       <meta property="og:description" content={seo.description} />
